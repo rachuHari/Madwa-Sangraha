@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity$PlaceholderFragment">
+
+    <com.ogaclejapan.smarttablayout.SmartTabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/viewpagertab"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/app_light"
+        app:stl_distributeEvenly="true"
+        app:stl_dividerColor="@color/transparent"
+        app:stl_indicatorColor="@color/transparent"
+        app:stl_indicatorInterpolation="smart"
+        app:stl_underlineColor="@color/transparent"
+
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/viewpagertab">
+
+        <TextView
+            android:id="@+id/textLang"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+
+            android:text="Languages :" />
+
+        <Spinner
+            android:id="@+id/spinnerLang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/textLang"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_toRightOf="@+id/textLang"></Spinner>
+
+    </RelativeLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relative" />
+
+</RelativeLayout>

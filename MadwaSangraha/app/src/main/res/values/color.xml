@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="app_light">#f58056</color>
+    <color name="app_dark">#d7704c</color>
+    <color name="icon_enabled">#FFFFFFFF</color>
+    <color name="icon_disabled">#FF63727B</color>
+
+    <color name="transparent">#00ffffff</color>
+
+</resources>
