@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp">
+    <RelativeLayout
+        android:id="@+id/serachlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/bg_search">
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icn_back"
+            android:padding="5dp"
+            android:layout_centerVertical="true"/>
+        <AutoCompleteTextView
+            android:id="@+id/autotext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgBack"
+            android:layout_toLeftOf="@+id/imgClose"
+
+            android:hint="search_hint"
+            android:background="@color/transparent"
+            android:layout_centerInParent="true"
+android:completionThreshold="1"
+          />
+
+        <ImageView
+            android:id="@+id/imgClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icn_close"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true" />
+
+
+
+    </RelativeLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/serachlayout"
+    android:layout_marginTop="30dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/app_light"
+            android:text="Trnding"
+            android:textColor="#ffffff"
+android:gravity="center"
+            android:layout_marginTop="10dp"  ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_suggestions"
+            android:text="Trnding"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_suggestions"
+            android:text="Trnding"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_suggestions"
+            android:text="Trnding"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_suggestions"
+            android:text="Trnding"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_suggestions"
+            android:text="Trnding"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_suggestions"
+            android:text="Trnding"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_suggestions"
+            android:text="Trnding"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_suggestions"
+            android:text="Trnding"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_suggestions"
+            android:text="Trnding"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            ></TextView>
+    </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>
